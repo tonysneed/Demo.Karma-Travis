@@ -16,8 +16,8 @@ gulp.task('compile', ['vet', 'clean'], function(done) {
     });
 });
 
-gulp.task('compile', ['vet', 'clean'], function() {
-    exec('tsc -p src');
+gulp.task('clean', function() {
+    return del('./dist/');
 });
 
 gulp.task('compile-watch', ['compile'], function() {
