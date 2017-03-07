@@ -1,4 +1,4 @@
 export function greet(name: string): string {
-    let result = "Hello " + name + "!";
+    let result = "Ciao " + name + "!";
     return result;
 }
