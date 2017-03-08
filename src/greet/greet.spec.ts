@@ -1,5 +1,3 @@
-/// <reference path="../../node_modules/@types/jasmine/index.d.ts" />
-
 import {greet} from "./greet";
 
 describe("greet", function() {
